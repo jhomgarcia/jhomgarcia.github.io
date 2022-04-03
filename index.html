@@ -3,33 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Portifólio Web</title>
-    <style>
-      body {background-color:#E2DCDE;
-      font-family: sans-serif;
-      font-size: 20px;
-      }
-      h1 {text-align: center;
-        line-height: 26px;
-      }
-      li {
-        font-size: 18px;
-      }
-    </style>
+   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>Jhonatan Abranges Garcia</h1>
-
     <ol>
       <li><a href="#jhon">Foto do Jhonatan</a></li>
       <li><a href="#sobre">Descrição do perfil</a></li>
       <li><a href="#lista">Lista de Habilidades</a></li>
       <li><a href="#blog">Blog Favorito</a></li>
     </ol>
-    
-    <img id="jhon" src="selfie.jpg" alt="Foto de perfil de Jhonatan Garcia" title="Foto de perfil de Jhonatan Garcia" width="300px" class="picture">
-
-    <p>Foto do Jhonatan Garcia. <br></p> 
-    <p id="sobre">Estudante de desenvolvimento Web na <a href="https://www.betrybe.com/" target="blank"> Trybe </a>. Tendo nacionalidade brasileira, nascido em <em> Horizonte - MG</em>, e atualmente morando na cidade de Ribeirão das Neves.</p>
+    <div>
+      <h1>Jhonatan Abranges Garcia</h1> 
+      <div class="image-container">
+        <img id="jhon" src="selfie.jpg" alt="Foto de perfil de Jhonatan Garcia" title="Foto de perfil de Jhonatan Garcia" class="picture">
+        <p id="sobre">Estudante de desenvolvimento Web na <a href="https://www.betrybe.com/" target="blank"> Trybe </a>.</p> 
+      </div>
+    </div>
+    <p class="casa">Moro na cidade de Ribeirão das Neves, que fica na região metropolitana de BH.</p>
     <h3 id="lista">Habilidades que mais me orgulho:</h3>
     <ul>
       <li>Liderança.</li>
@@ -37,7 +27,6 @@
       <li>Autonomia.</li>
       <li>Boa comunicação.</li>
     </ul>
-
     <h3>Outras Habilidades:</h3>
     <ul>
       <li>Técnico em Informatica.</li>
